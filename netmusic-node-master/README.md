@@ -19,7 +19,7 @@
 
 ### 1. 克隆项目
 ```bash
-git clone <your_repo_url>
+git clone git@github.com:ZeroTB01/-.git
 cd netmusic-node-master
 ```
 
