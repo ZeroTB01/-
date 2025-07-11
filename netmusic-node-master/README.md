@@ -103,25 +103,5 @@ sequenceDiagram
 ---
 
 ## 相关项目推荐
-- [网易云音乐-微信小程序](https://github.com/sqaiyan/NeteaseMusicWxMiniApp)
-- [网易云音乐-VUE版本SPA](https://github.com/sqaiyan/neteasemusic)
+- [音乐微信小程序](https://github.com/ZeroTB01/-/tree/main/NeteaseMusicWxMiniApp-master)
 
----
-
-## 常见问题
-
-1. **为什么需要本地代理？**
-   - 网易云官方API有严格的加密校验，前端直连易被封禁且不安全。
-   - 本地代理可隐藏加密细节，保护账号安全。
-2. **如何更换端口？**
-   - 修改`app.js`中`app.listen`的端口参数即可。
-3. **接口不返回数据/报错？**
-   - 检查本地网络、网易云API是否可访问，或尝试重启服务。
-4. **支持哪些API？**
-   - 绝大多数常用API均已支持，具体可查阅`app.js`路由。
-
----
-
-## License
-
-MIT
